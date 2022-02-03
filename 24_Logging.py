@@ -11,7 +11,7 @@ import logging
 # logging.error('This is an error message')
 # logging.critical('This is a critical message')
 # ==================
-LOG_FILENAME= 'logging_warning1702.log'
+LOG_FILENAME= 'logging_warning170211.log'
 logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG)
 driver = webdriver.Chrome()
 logging.debug("Browser started")
@@ -28,5 +28,5 @@ driver.quit()
 # print(__file__)
 # import os
 # print dir(logging)
-print(os.path.dirname(__file__))
+# print(os.path.dirname(__file__))
 
